@@ -1,3 +1,5 @@
-<% @studs.each do |s| %>
-  <%= s.first_name %>
-<% end %>
+<ol>
+  <% @studs.each do |s| %>
+    <li><%= s.to_s %></li>
+  <% end %>
+</ol>
